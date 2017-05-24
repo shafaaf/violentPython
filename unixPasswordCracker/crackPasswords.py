@@ -6,10 +6,6 @@ hashed password, the main function calls the testPass() function that
 tests passwords against a dictionary file.
 '''
 
-# https://joanpuigsanz.wordpress.com/2009/11/26/hack-hash-passwords/
-# https://violentpython.wordpress.com/
-# http://stackoverflow.com/questions/21090312/hashlib-vs-crypt-crypt-in-python-why-different-results
-
 import passlib.hash, crypt
 import hashlib
 from passlib import *
